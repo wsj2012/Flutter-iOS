@@ -1,6 +1,13 @@
 # myapp
 
-A new Flutter project.
+#### Fetures:
+
+- 全使用iOS风格widget（CupertinoTabBar搭配CupertinoTabScaffold）
+- tabBar上菜单可自由设置显示风格（包括图标、字体大小颜色）
+
+#### Attention:
+
+- 此入口类CupertinoTabScaffold内未设置navigationBar， navigationBar最好都在各自page页内设置，这样可自定制navigationBar上显示的不同元素。（如果在此入口类设置了navigationBar，各tab首页page的navigationBar上显示元素就会一致，个性化定制各page的navigationBar就需要加入更多的逻辑，建议navigationBar分散到各自的page页去实现）
 
 ## Getting Started
 
