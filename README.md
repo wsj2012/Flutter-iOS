@@ -1,6 +1,6 @@
 # myapp
 
-A new Flutter project.
+A new Flutter project.纯iOS风格在Flutter的实现。
 
 ## Getting Started
 
